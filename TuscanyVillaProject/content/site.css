@@ -1,0 +1,111 @@
+﻿body {
+    height:auto;
+    background-color:#C8CCC9;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+div.page-header
+{
+    background-color:#C8CCC9;
+    margin-top:0px;
+    padding-top:0px;
+    margin-bottom:0px;
+    height:400px;
+}
+
+#logoImg{
+    width:400px;
+    align-self:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.firstRow {
+    margin: 0px;
+    padding: 1px;
+    border: 0px;
+}
+
+.secondRow div{
+    margin:0px;
+    padding:1px;
+    border:0px;
+}
+.secondRow img{
+    width:100%;
+}
+
+div.well1{
+    margin-top:1px;
+    margin-bottom:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+    margin-left:1px;
+    margin-right:1px;
+    padding-left:1px;
+    padding-right:1px;
+    border-top:1px;
+    border-bottom:1px;
+    border-left:1px;
+    border-right:1px;
+}
+div.well2{
+    margin-top:1px;
+    margin-bottom:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+    margin-left:1px;
+    margin-right:1px;
+    padding-left:1px;
+    padding-right:1px;
+    border-top:1px;
+    border-bottom:1px;
+    border-left:1px;
+    border-right:1px;
+}
+.navigation {
+    text-align:center;
+    background-color:white;
+}
+.firstnav {
+    text-align:center;
+    background-color:#A2D2CC;
+    height:50px;
+    line-height:50px;
+}
+.lastnav {
+    text-align:center;
+    background-color:#82BED3;
+    height:50px;
+    line-height:50px;
+}
+nav#navvy.navbar-static-top{
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color:white;
+    
+}
+#navvy a {
+    color:black;
+}
+#navvy a:hover{
+    background:none;
+}
+#navvy .navbar-nav{
+    text-align:center;
+    float:none;
+    width:auto;
+}
+#navvy .navbar-nav li{
+    float:none;
+    display:inline-block;
+}
+
+/*Button*/
+button.navbar-toggle {
+    border:1px solid black;
+}
+span.icon-bar {
+    border:1px solid black;
+}
