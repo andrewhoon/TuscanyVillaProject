@@ -1,7 +1,7 @@
 ﻿body {
     height:auto;
     background-color:#C8CCC9;
-    padding-top:0px;
+    padding-top:0px;   /*these photos are very close to each other*/
     padding-bottom:0px;
 }
 div.page-header
@@ -38,7 +38,7 @@ div.page-header
     height:500px;
 }
 .secondRow img{
-    width:100%;
+    width:100%; /*This keeps the photos even and helps in responsivness*/
 }
 div.well1{
     margin:1px;
@@ -53,20 +53,28 @@ div.well2{
     width:100%;
 }
 div.well14{
+    font-family: 'Catamaran', sans-serif; /*google font*/
+    text-align:center;
+    line-height:55px;
+    font-size:26px;
+    vertical-align:middle;
     background-color:white;
     width:100%;
 }
 .navigation {
+    font-family: 'Catamaran', sans-serif;   /*nav is broken into 3 categories*/
     text-align:center;
     background-color:white;
 }
 .firstnav {
+    font-family: 'Catamaran', sans-serif;
     text-align:center;
     background-color:#A2D2CC;
     height:50px;
     line-height:50px;
 }
 .lastnav {
+    font-family: 'Catamaran', sans-serif;
     text-align:center;
     background-color:#82BED3;
     height:50px;
@@ -79,7 +87,7 @@ nav#navvy.navbar-static-top{
     
 }
 #navvy a {
-    color:black;
+    color:black; /*this makes the navbar visable on a white background*/
 }
 #navvy a:hover{
     background:none;
@@ -91,7 +99,7 @@ nav#navvy.navbar-static-top{
 }
 #navvy .navbar-nav li{
     float:none;
-    display:inline-block;
+    display:inline-block; /*this is keeping the three items in line*/
 }
 
 /*Button*/
@@ -101,13 +109,18 @@ button.navbar-toggle {
 span.icon-bar {
     border:1px solid black;
 }
+
+/*footer*/
 footer { 
+    font-family: 'Catamaran', sans-serif;
     display: block;
     background-color:#DDDDDD;
     padding-bottom:10px;
+    padding-top:24px;
 }
 #social{
     height:40px;
     position:absolute;
     right:0px;
 }
+
