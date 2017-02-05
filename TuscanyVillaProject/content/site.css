@@ -39,6 +39,7 @@ div.page-header
 }
 .secondRow img{
     width:100%; /*This keeps the photos even and helps in responsivness*/
+    max-height:500px;
 }
 div.well1{
     margin:1px;
@@ -61,13 +62,25 @@ div.well14{
     background-color:white;
     width:100%;
 }
+div.well8{
+    font-family: 'Lobster', cursive; /*another google font*/
+    text-align:center;
+    line-height:55px;
+    font-size:26px;
+    color:white;
+    vertical-align:middle;
+    background-color:#65DDBF;
+    width:100%;
+}
 .navigation {
     font-family: 'Catamaran', sans-serif;   /*nav is broken into 3 categories*/
+    font-size:18px;
     text-align:center;
     background-color:white;
 }
 .firstnav {
     font-family: 'Catamaran', sans-serif;
+    font-size:18px;
     text-align:center;
     background-color:#A2D2CC;
     height:50px;
@@ -75,6 +88,7 @@ div.well14{
 }
 .lastnav {
     font-family: 'Catamaran', sans-serif;
+    font-size:18px;
     text-align:center;
     background-color:#82BED3;
     height:50px;
