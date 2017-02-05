@@ -31,11 +31,11 @@ div.page-header
     margin:0px;
     padding:1px;
     border:0px;
+    height:500px;
 }
 .secondRow img{
     width:100%;
 }
-
 div.well1{
     margin-top:1px;
     margin-bottom:1px;
@@ -63,6 +63,10 @@ div.well2{
     border-bottom:1px;
     border-left:1px;
     border-right:1px;
+}
+div.well14{
+    background-color:white;
+    width:100%;
 }
 .navigation {
     text-align:center;
@@ -108,4 +112,9 @@ button.navbar-toggle {
 }
 span.icon-bar {
     border:1px solid black;
+}
+footer { 
+    display: block;
+    background-color:#DDDDDD;
+    padding-bottom:10px;
 }
